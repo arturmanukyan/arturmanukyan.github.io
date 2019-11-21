@@ -1,0 +1,45 @@
+#container {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px!important;
+    color: #a5a5a5;
+    margin: 0 auto;
+    background-color: #111;
+    cursor: default;
+}
+
+#catline ul{
+    margin: 10px 0;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#catline ul li {
+    margin: 1px;
+    text-align: -webkit-match-parent;
+    flex-basis: 13.8%;
+}
+
+#catline ul li a {
+    border-radius: 3px;
+    -webkit-transition: .15s;
+    -o-transition: .15s;
+    transition: .15s;
+    font-size: 12px!important;
+    display: inline-block;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 3px 3px; 
+}
+
+nav.rd-navbar.rd-navbar-original{
+    box-shadow: 0 0 15px black;
+}
+
+#catline ul li a:hover {
+    background-color: rgb(216,26,36);
+    color: white;
+}

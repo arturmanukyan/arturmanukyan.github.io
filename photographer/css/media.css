@@ -1,0 +1,53 @@
+@media only screen and (max-width : 960px){
+    header h1{
+        letter-spacing: 30px;
+    }
+    .next-btn{
+        left: 85vw;
+        top: 60vh;
+    }
+}
+
+@media only screen and (max-width : 750px){
+    .big-menu{
+        display: none;
+    }
+    #webapp_cover{
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width : 580px){
+    header h1{
+        letter-spacing: 10px;
+    }
+    .next-btn{
+        left: 65vw;
+        top: 60vh;
+    }
+    .next-btn span::after{
+        left: 10px;
+        opacity: 1;
+    }
+
+    .sec2 textarea{
+        width: 80%;
+    }
+    .sec2{
+        padding-top: 50px;
+    }
+    .ava{
+        display: none!important;
+    }
+    .txt{
+        background-image: url('../img/ava.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100vw!important;
+    }
+    .txt p{
+        width: 80vw;
+        color: white;
+    }
+}

@@ -1,0 +1,58 @@
+@media only screen and (min-width : 1201px) {
+
+}
+@media only screen and (max-width : 1200px){
+    .car-div::after{
+        height: 65%!important;
+    }
+    .car-div img {
+        top: -340px;
+        right: -40px;
+        width: 54%;
+    }
+    .vertical-arrows {
+        left: 140px;
+        top:-610px;
+    }
+    .sec5 h5+span{
+        top: 0;
+        right: 0;
+    }
+}
+@media only screen and (max-width : 991px){
+
+}
+@media only screen and (max-width : 768px){
+    .car-div::after{
+        height: 77%!important;
+    }
+    .grid{
+        grid-template-rows: repeat(4, 100px);
+        grid-template-columns: repeat(3, 160px);
+    }
+    .grid::before{
+        width: 200px;
+        height: 200px;
+        margin-left: -25px;
+        margin-top: -465px;
+    }
+    .grid::after{
+        font-size: 25px;
+        margin-top: -513px;
+        margin-left: -150px;
+        width: 130px;
+    }
+}
+@media only screen and (max-width : 576px){
+    .car-div::after{
+        height: 95%!important;
+    }
+    .arrows {
+        right: 60%!important;
+    }
+}
+@media only screen and (max-width : 480px) {
+    .navbar-brand img{
+        width: 200px;;
+    }
+}
